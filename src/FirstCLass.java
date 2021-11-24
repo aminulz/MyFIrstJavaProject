@@ -3,5 +3,6 @@ public class FirstCLass {
         System.out.println("Some Text");
         System.out.print("Second Line");
         System.out.println("Third Line");
+        System.out.println("Fourth Line");
     }
 }
