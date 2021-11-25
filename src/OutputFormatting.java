@@ -1,3 +1,4 @@
+import java.sql.Array;
 import java.util.Scanner;
 
 public class OutputFormatting {
@@ -6,11 +7,8 @@ public class OutputFormatting {
         System.out.println("================================");
         for(int i=0;i<3;i++){
             String s1=sc.next();
-            String x=sc.nextLine();
-            String [] words = x. split(" ");
-            System.out.println(words[0]);
-            System.out.println("            ");
-            System.out.println(words[1]);
+            int x=sc.nextInt();
+            System.out.printf("%-15s%03d%n", s1, x);
         }
         System.out.println("================================");
 
