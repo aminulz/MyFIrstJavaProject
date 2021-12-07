@@ -6,11 +6,12 @@ public class EOF_Detect {
     public static void main(String[] args) {
 
          List<String> names = new ArrayList<>();
+        names.add("Hi");
+        names.add("Hellow");
          List<String> n1 = names;
-        n1.add("Hi");
-        n1.add("Hellow");
 
-        names.forEach(System.out::println);
+
+        n1.forEach(System.out::println);
 
     }
 }
