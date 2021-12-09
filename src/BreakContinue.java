@@ -22,10 +22,10 @@ public class BreakContinue {
 //                whilePrint++;
 //            }
 //       Break command in Do while loop
-        do{
+        outer: do{
             if(whilePrint == 2){
                 whilePrint++;
-                continue;
+                break outer;
             }
             else {
                 System.out.println(whilePrint);
