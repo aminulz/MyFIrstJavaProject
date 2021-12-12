@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class firstArray {
     public static void main(String[] args) {
@@ -18,3 +17,4 @@ public class firstArray {
         System.out.println("\nSum of array 1 is: " + Arrays.stream(oldArray).sum()); //Sum of oldArray using Arrays.stream
     }
 }
+
