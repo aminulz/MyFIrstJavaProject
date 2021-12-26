@@ -10,12 +10,13 @@ public class ObjectPractice {
         d1.color="White";
         System.out.println(d1.owner +" have a " +d1.age +" years old " +d1.color +"," +d1.breed +" dog.");
 
+//        Using Setter-Getter method
         dog d2 = new dog();
-        d2.owner="Jason";
-        d2.age = 2;
-        d2.breed="Retriever";
-        d2.color="Golden";
-        System.out.println(d2.owner +" have a " +d2.age +" years old " +d2.color +"," +d2.breed +" dog.");
+        d2.setOwner("Jason");
+        d2.setAge(2);
+        d2.setBreed("Pug");
+        d2.setColor("Golden");
+        System.out.println(d2.getOwner() +" have a " +d2.getAge() +" years old " +d2.getColor() +"," +d2.getBreed() +" dog.");
     }
 
 
@@ -24,6 +25,33 @@ public class ObjectPractice {
         String breed;
         int age;
         String color;
+
+        public void setOwner(String o){
+            owner = o;
+        }
+        public String getOwner (){
+            return owner;
+        }
+        public void setBreed(String b){
+            breed = b;
+        }
+        public String getBreed (){
+            return breed;
+        }
+        public void setAge(int a){
+            age = a;
+        }
+        public int getAge (){
+            return age;
+        }
+
+        public String getColor() {
+            return color;
+        }
+
+        public void setColor(String c) {
+            color = c;
+        }
     }
 
 }
