@@ -7,4 +7,9 @@ public class CustomClass {
         StringBuilder result = new StringBuilder(x + y + z);
         return result;
     }
+
+    public static int evenOdd(int value) {
+        int result = value % 2;
+        return result;
+    }
 }
