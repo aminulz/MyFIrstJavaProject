@@ -3,7 +3,12 @@ public class SetterGetter {
         area a = new area();
         a.setBreadth(40);
         a.setLength(50);
-        System.out.println(a.calculateArea());;
+        System.out.println(a.calculateArea());
+        System.out.println(a.getBreadth());
+        System.out.println(a.getLength());
+        area b = a;
+        System.out.println(b.getLength());
+        System.out.println(b.getBreadth());
     }
 
     static class area{
