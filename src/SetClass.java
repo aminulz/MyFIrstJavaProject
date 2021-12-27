@@ -2,6 +2,8 @@ import java.util.*;
 
 public class SetClass {
     public static void main(String[] args) {
+//        Hash Set
+
         Set<String> hashSet = new HashSet<>();
         hashSet.add("Grameenphone");
         hashSet.add("Airtel");
@@ -13,6 +15,9 @@ public class SetClass {
         }
         hashSet.isEmpty();
         System.out.println(hashSet.contains("Grameenphone"));
+
+//        Tree Set
+
 //        Set<String> treeSet = new TreeSet<>();
 //        treeSet.add("Grameenphone");
 //        treeSet.add("Airtel");
