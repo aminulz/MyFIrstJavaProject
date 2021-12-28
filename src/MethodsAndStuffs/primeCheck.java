@@ -1,3 +1,5 @@
+package MethodsAndStuffs;
+
 import java.util.Scanner;
 public class primeCheck {
     public static void main(String[] args) {

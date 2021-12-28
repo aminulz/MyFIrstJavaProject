@@ -1,3 +1,5 @@
+package MethodsAndStuffs;
+
 import java.util.*;
 public class StringBuilderCheck {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package MethodsAndStuffs;
+
 import java.util.Scanner;
 
 public class ObjectPractice {

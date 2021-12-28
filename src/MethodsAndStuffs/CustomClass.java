@@ -1,3 +1,5 @@
+package MethodsAndStuffs;
+
 public class CustomClass {
     public static StringBuilder stringCheck(StringBuilder a) {
         StringBuilder str1 = a;

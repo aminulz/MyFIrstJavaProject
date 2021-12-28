@@ -1,3 +1,5 @@
+package MethodsAndStuffs;
+
 import java.util.*;
 public class ArrayListClass {
     public static void main(String[] args) {

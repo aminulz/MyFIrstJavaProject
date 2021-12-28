@@ -1,3 +1,5 @@
+package MethodsAndStuffs;
+
 public class SetterGetter {
     public static void main(String[] args) {
         area a = new area();

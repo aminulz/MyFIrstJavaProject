@@ -1,3 +1,5 @@
+package MethodsAndStuffs;
+
 import java.sql.Array;
 import java.util.Scanner;
 
