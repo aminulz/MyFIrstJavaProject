@@ -7,6 +7,7 @@ public class staticClass {
 
         counter c2 = new counter();
         c2.incrementCounter();
+//        System.out.println(counter.areaCalculate(10, 20));
 
     }
 }
@@ -16,4 +17,8 @@ class counter{
         c++;
         System.out.println(c);
     }
+
+//    public static int areaCalculate(int l, int w){
+//        return l * w;
+//    }
 }

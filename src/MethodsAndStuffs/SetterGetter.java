@@ -26,16 +26,16 @@ public class SetterGetter {
             return length;
         }
 
-        public void setLength(double length) {
-            this.length = length;
+        public void setLength(double l) {
+            this.length = l;
         }
 
         public double getBreadth() {
             return breadth;
         }
 
-        public void setBreadth(double breadth) {
-            this.breadth = breadth;
+        public void setBreadth(double b) {
+            this.breadth = b;
         }
     }
 }
