@@ -14,7 +14,6 @@ public class hackerRank {
         }
         else {
             int result = b * h;
-            System.out.println("Result is : " +result);
         }
     }
 }

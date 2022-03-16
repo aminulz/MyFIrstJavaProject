@@ -1,5 +1,5 @@
 import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 public class TypesofString {
     public static void main(String[] args) {
         String str = "Hello World";
