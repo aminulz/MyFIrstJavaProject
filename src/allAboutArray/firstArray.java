@@ -1,3 +1,5 @@
+package allAboutArray;
+
 import java.util.Arrays;
 
 public class firstArray {

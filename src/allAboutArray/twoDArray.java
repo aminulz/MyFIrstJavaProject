@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package allAboutArray;
 
 public class twoDArray {
     public static void main(String[] args) {
